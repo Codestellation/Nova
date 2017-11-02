@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <Authors>PROJECT_AUTHORS</Authors>
+    <Company>PROJECT_COMPANY</Company>
+    <Description>PROJECT_DESCRIPTION</Description>
+    <Copyright>PROJECT_COPYRIGHT</Copyright>
+    <PackageId>PROJECT_NAMESPACE.PROJECT_NAME</PackageId>
+    <PackageProjectUrl>PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>PROJECT_URL</RepositoryUrl>
+    <AssemblyName>PROJECT_NAMESPACE.PROJECT_NAME</AssemblyName>
+    <RootNamespace>PROJECT_NAMESPACE.PROJECT_NAME</RootNamespace>
+    <NoWarn>7035</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath Condition="$(OutputPath) == ''">..\..\build\bin</OutputPath>
+    <OutDir>$(OutputPath)\$(MSBuildProjectName)\$(TargetFramework)\</OutDir>
+  </PropertyGroup>
+
+</Project>

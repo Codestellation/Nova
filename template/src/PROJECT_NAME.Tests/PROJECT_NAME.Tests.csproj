@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>PROJECT_NAMESPACE.PROJECT_NAME.Tests</AssemblyName>
+    <RootNamespace>PROJECT_NAMESPACE.PROJECT_NAME.Tests</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <NoWarn>7035</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath Condition="$(OutputPath) == ''">..\..\build\bin</OutputPath>
+    <OutDir Condition="$(OutputPath) != ''">$(OutputPath)\$(MSBuildProjectName)\$(TargetFramework)\</OutDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.8.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0-preview-20170923-02" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PROJECT_NAME\PROJECT_NAME.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Codestellation.Nova.CakeBuild</id>
+    <version>1.0.2</version>
+    <title>Codestellation Nova cake build</title>
+    <authors>Codestellation Team</authors>
+    <owners>Codestellation Team</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>Cake build tools</description>
+    <projectUrl>https://github.com/Codestellation/Nova</projectUrl>
+    <copyright>Copyright (c) Codestellation Team 2016-2018</copyright>
+    <tags>Codestellation cake-build</tags>
+    <dependencies>
+      <dependency id="Cake" version="[0.22.2]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="*.cake" target="content" />
+  </files>
+</package>
