@@ -32,7 +32,7 @@ Param(
 
 Import-Module .\utils.psm1 -Force
 
-$project_namespace  = UpperCaseFirstLetter -text $project_company
+$project_namespace  = UpperCaseFirstLetter -text $project_namespace
 $project_name       = UpperCaseFirstLetter -text $project_name
 $project_company    = UpperCaseFirstLetter -text $project_company
 $project_copyright  = "Copyright (c) $project_company $((Get-Date).Year)"
