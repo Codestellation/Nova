@@ -12,6 +12,7 @@
     <AssemblyName>PROJECT_NAMESPACE.PROJECT_NAME</AssemblyName>
     <RootNamespace>PROJECT_NAMESPACE.PROJECT_NAME</RootNamespace>
     <NoWarn>7035</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup>
