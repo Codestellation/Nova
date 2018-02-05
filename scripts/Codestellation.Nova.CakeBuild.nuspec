@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Codestellation.Nova.CakeBuild</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>Codestellation Nova cake build</title>
     <authors>Codestellation Team</authors>
     <owners>Codestellation Team</owners>

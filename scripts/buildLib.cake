@@ -75,21 +75,10 @@ Task("Pack")
     var settings = new DotNetCorePackSettings
     {
         NoBuild = true,
-        IncludeSymbols = true,
-        OutputDirectory = buildBinDir,
+        OutputDirectory = buildArtifactsDir,
         MSBuildSettings = msbuildProps
     };
     DotNetCorePack(srcDir, settings);
-
-    // rename *.symbols.nupkg to *.nupkg
-    CreateDirectory(buildArtifactsDir);
-    var packagesGlob = buildBinDir.Path + "/*.symbols.nupkg";
-    var packages = GetFiles(packagesGlob);
-    foreach(var package in packages)
-    {
-        var name = File(package.GetFilename().FullPath.Replace(".symbols.nupkg", ".nupkg"));
-        CopyFile(package, buildArtifactsDir + name);
-    }
 });
 
 Task("Publish")

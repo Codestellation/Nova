@@ -13,6 +13,7 @@
     <RootNamespace>PROJECT_NAMESPACE.PROJECT_NAME</RootNamespace>
     <NoWarn>7035</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
   </PropertyGroup>
 
   <PropertyGroup>
