@@ -8,11 +8,6 @@
     <NoWarn>7035</NoWarn>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <OutputPath Condition="$(OutputPath) == ''">..\..\build\bin</OutputPath>
-    <OutDir Condition="$(OutputPath) != ''">$(OutputPath)\$(MSBuildProjectName)\$(TargetFramework)\</OutDir>
-  </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.8.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
