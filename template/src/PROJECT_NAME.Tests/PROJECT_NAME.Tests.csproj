@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net461</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <AssemblyName>PROJECT_NAMESPACE.PROJECT_NAME.Tests</AssemblyName>
     <RootNamespace>PROJECT_NAMESPACE.PROJECT_NAME.Tests</RootNamespace>
     <IsPackable>false</IsPackable>
