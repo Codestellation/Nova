@@ -1,28 +1,18 @@
 # Codestellation.Nova 
 
-Codestellation.Nova is .NET core projects generator
+## Codestellation.Nova is .NET core projects generator
 
 Generator steps:
 * Create empty .net core library project
 * Create empty .net core library tests project ([NUnit](http://nunit.org))
-* Include [Cake](https://cakebuild.net) build script with [semver](http://semver.org) versioning and nuget packaging
-* Initialize git repository
-
-# Installation
-
-```
-$ git clone https://github.com/Codestellation/Nova.git
-```
+* Create README file
+* Setup [semver](http://semver.org) versioning ([Cepheid](https://github.com/Codestellation/Cepheid))
+* Initialize git repository with .gitignore
 
 # Usage
 
 ```
+$ git clone https://github.com/Codestellation/Nova.git
 $ cd Nova
 $ ./create.ps1
 ```
-
-# How to contribute
-
-* Use core.autocrlf=True
-* Use spaces instead of tabs
-* Use [Allman indent style](https://en.wikipedia.org/wiki/Indent_style#Allman_style)
