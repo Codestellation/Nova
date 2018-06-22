@@ -27,6 +27,12 @@ Param(
     [ValidateNotNullOrEmpty()]
     [string] $project_url,
 
+    [Parameter(HelpMessage="Git user name (optional)")]
+    [string] $git_user_name,
+
+    [Parameter(HelpMessage="Git user email (optional)")]
+    [string] $git_user_email,
+
     [switch] $dryrun
 )
 
@@ -54,6 +60,13 @@ Write-Host "Project description :'$project_description'"
 Write-Host "Project copyright   :'$project_copyright'"
 Write-Host "Project URL         :'$project_url'"
 
+if($git_user_name) {
+    Write-Host "Git user name       :'$git_user_name'"
+}
+if($git_user_email) {
+    Write-Host "Git user email      :'$git_user_email'"
+}
+
 if($dryrun) {
     exit
 }
@@ -69,6 +82,6 @@ ReplaceTemplate -path $project_folder -template "PROJECT_COPYRIGHT" $project_cop
 ReplaceTemplate -path $project_folder -template "PROJECT_URL" $project_url
 ReplaceGuid -path $project_folder
 
-InitGitRepo -path $project_folder
+InitGitRepo -path $project_folder -username $git_user_name -useremail $git_user_email
 
 Write-Host "Completed!"

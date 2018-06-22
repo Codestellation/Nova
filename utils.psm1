@@ -67,12 +67,22 @@ function GetAbsolutePath  {
 
 function InitGitRepo {
     param (
-        $path
+        $path,
+        $username,
+        $useremail
     )
     
     Push-Location
     Set-Location $path
     Invoke-Expression "git init"
+
+    if($username) {
+        Invoke-Expression "git config user.name '$username'"    
+    }
+    if($useremail) {
+        Invoke-Expression "git config user.email '$useremail'"    
+    }
+
     Invoke-Expression "git add --all"
     Invoke-Expression "git commit -m 'Big Bang!'"
     Invoke-Expression "git tag -a v0.1 -m 'v0.1'"
