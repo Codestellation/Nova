@@ -11,7 +11,7 @@
     <RepositoryUrl>PROJECT_URL</RepositoryUrl>
     <AssemblyName>PROJECT_NAMESPACE.PROJECT_NAME</AssemblyName>
     <RootNamespace>PROJECT_NAMESPACE.PROJECT_NAME</RootNamespace>
-    <NoWarn>7035</NoWarn>
+    <NoWarn>7035;1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
   </PropertyGroup>
