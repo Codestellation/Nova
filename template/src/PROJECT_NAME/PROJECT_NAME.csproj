@@ -8,6 +8,7 @@
     <Copyright>PROJECT_COPYRIGHT</Copyright>
     <PackageId>PROJECT_NAMESPACE.PROJECT_NAME</PackageId>
     <PackageProjectUrl>PROJECT_URL</PackageProjectUrl>
+    <PackageTags>PACKAGE_TAGS</PackageTags>
     <RepositoryUrl>PROJECT_URL</RepositoryUrl>
     <AssemblyName>PROJECT_NAMESPACE.PROJECT_NAME</AssemblyName>
     <RootNamespace>PROJECT_NAMESPACE.PROJECT_NAME</RootNamespace>
