@@ -2,7 +2,7 @@
 ## PROJECT_DESCRIPTION
 
 # How to build
-```
+```bash
 # build
 dotnet build ./src -c=release
 

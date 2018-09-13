@@ -11,7 +11,7 @@ Generator steps:
 
 # Usage
 
-```
+```bash
 $ git clone https://github.com/Codestellation/Nova.git
 $ cd Nova
 $ ./create.ps1
