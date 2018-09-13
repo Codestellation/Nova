@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>PROJECT_AUTHORS</Authors>
     <Company>PROJECT_COMPANY</Company>
     <Description>PROJECT_DESCRIPTION</Description>
