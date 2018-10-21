@@ -1,4 +1,4 @@
-# Codestellation.Nova 
+# Codestellation.Nova
 
 ## Codestellation.Nova is .NET core projects generator
 
@@ -9,10 +9,12 @@ Generator steps:
 * Setup [semver](http://semver.org) versioning ([Cepheid](https://github.com/Codestellation/Cepheid))
 * Initialize git repository with .gitignore
 
+
+
 # Usage
 
 ```bash
-$ git clone https://github.com/Codestellation/Nova.git
-$ cd Nova
-$ ./create.ps1
+$ dotnet -i Codestellation.Library.Template
+$ dotnet new codelib -n MyLovelyLibrary
+$ drink a beer
 ```
