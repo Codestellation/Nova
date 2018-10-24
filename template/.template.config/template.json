@@ -13,5 +13,19 @@
     "9A19103F-16F7-4668-BE54-9A1E7A4F7556",
     "95EDF11F-00DE-4E5E-99D6-DB47AF27E114",
     "16AF58D2-E7AF-4B2E-BB9B-FF968D97282E"
-  ]
+  ],
+  "postActions": [{
+    "actionId": "3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
+    "args": {
+      "executable": "git",
+      "args": "init"
+    },
+    "manualInstructions": [{ "text": "Run 'git init'" }],
+    "continueOnError": "false",
+    "description ": "Initialize new git repo"
+  }],
+
+  "symbols":{
+
+  }
 }
