@@ -1,0 +1,12 @@
+{
+	"author": "Jury Soldatenkov, Ilya Dubadenko",
+	"classifications": ["netstandard", "library" ],
+	"name": "Codestellation Library Template",
+	"identity": "Codestellation.Library.Template", // Unique name for this template
+	"shortName": "codelib", // Short name that can be used on the cli
+	"tags": {
+		"language": "C#"
+	},
+	"sourceName": "Library",
+	"preferNameDirectory": "true"
+}
