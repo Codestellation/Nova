@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">  
   <metadata>
     <id>Codestellation.Library.Template</id>
-    <version>1.0.0</version>
+    <version>1.0</version>
     <description>
       Creates a solution which consist of the netstandard 2.0 libray and nunit-based test project for .net core 2.1 and .net 4.7.2  runtimes.
     </description>
